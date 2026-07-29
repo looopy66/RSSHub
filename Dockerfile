@@ -170,7 +170,7 @@ RUN \
 
 COPY --from=docker-minifier /app /app
 
-EXPOSE 3000
+EXPOSE 1200
 ENTRYPOINT ["dumb-init", "--"]
 
 CMD ["npm", "run", "start"]
